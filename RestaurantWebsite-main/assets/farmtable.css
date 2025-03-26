@@ -1,0 +1,71 @@
+body {
+    background-color: #0a0a0a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.page-title {
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.page-title h1 {
+    font-size: 3rem;
+    color: gold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    max-width: 1200px;
+    margin: auto;
+    height: 80vh;
+    gap: 20px;
+}
+
+.step-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.step-image img {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.step-text {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+}
+
+.step-text h2 {
+    font-size: 2.2rem;
+    color: gold;
+}
+
+.step-text p {
+    font-size: 1.4rem;
+    color: #ddd;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+.top-left-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+  }
